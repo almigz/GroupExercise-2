@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+        
+body.night-theme {
+    background-color: #121212;
+    color: #ffffff;
+}
+        
+body.night-theme .card {
+    background-color: #1e1e1e;
+}
+
+body.night-theme .text-muted {
+	color: #b0b0b0; /* Adjust muted text color for night mode */
+    }
+
+.card {
+	overflow: hidden; /* Prevent overflow of content */
+}
+
+.card img {
+    width: 100%; /* Make image responsive */
+    height: 300px; /* Set a fixed height for uniformity */
+    object-fit: cover; /* Cover the area while maintaining aspect ratio */
+    object-position: center; /* Center the image */
+}
+
+.text1{
+    color: blue;
+}
